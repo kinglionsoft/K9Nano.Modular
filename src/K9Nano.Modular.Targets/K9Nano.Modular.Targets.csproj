@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="K9Nano.Modular.Targets.targets" Pack="true">
+      <PackagePath>build\$(TargetFramework)\K9Nano.Modular.Targets.targets</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\K9Nano.Modular.Core\K9Nano.Modular.Core.csproj" />
+  </ItemGroup>
+
+</Project>

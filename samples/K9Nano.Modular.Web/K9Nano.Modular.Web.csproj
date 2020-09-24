@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\..\src\K9Nano.Modular.Targets\K9Nano.Modular.Targets.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\K9Nano.Modular.Core\K9Nano.Modular.Core.csproj" />
+    <ProjectReference Include="..\ModuleA\ModuleA.csproj" />
+    <ProjectReference Include="..\ModuleB\ModuleB.csproj" />
+  </ItemGroup>
+
+</Project>

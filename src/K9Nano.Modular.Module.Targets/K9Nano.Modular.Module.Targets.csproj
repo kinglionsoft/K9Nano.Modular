@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="K9Nano.Modular.Module.Targets.props" Pack="true">
+      <PackagePath>build\$(TargetFramework)\K9Nano.Modular.Module.Targets.props</PackagePath>
+    </None>
+    <None Include="K9Nano.Modular.Module.Targets.targets" Pack="true">
+      <PackagePath>build\$(TargetFramework)\K9Nano.Modular.Module.Targets.targets</PackagePath>
+    </None>
+    <None Include="Package.Build.props" Pack="true">
+      <PackagePath>build\$(TargetFramework)\Package.Build.props</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\K9Nano.Modular.Abstraction\K9Nano.Modular.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>

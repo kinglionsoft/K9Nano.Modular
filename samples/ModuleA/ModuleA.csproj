@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\src\K9Nano.Modular.Module.Targets\K9Nano.Modular.Module.Targets.props" />
+
+  <PropertyGroup>
+    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\..\src\K9Nano.Modular.Module.Targets\K9Nano.Modular.Module.Targets.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\K9Nano.Modular.Module.Targets\K9Nano.Modular.Module.Targets.csproj" />
+  </ItemGroup>
+
+</Project>

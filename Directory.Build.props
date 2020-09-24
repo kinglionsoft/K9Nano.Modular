@@ -1,0 +1,8 @@
+﻿<Project>
+  <PropertyGroup>
+    <AspNetCoreTargetFramework>netcoreapp3.1</AspNetCoreTargetFramework>
+    <Authors>K9</Authors>
+    <Version>0.0.8</Version>
+    <Description>A light module framework.</Description>
+  </PropertyGroup>
+</Project>
