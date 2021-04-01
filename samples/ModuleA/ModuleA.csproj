@@ -3,7 +3,7 @@
   <Import Project="..\..\src\K9Nano.Modular.Module.Targets\K9Nano.Modular.Module.Targets.props" />
 
   <PropertyGroup>
-    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <Import Project="..\..\src\K9Nano.Modular.Module.Targets\K9Nano.Modular.Module.Targets.targets" />
