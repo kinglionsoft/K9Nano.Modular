@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>$(AspNetCoreTargetFramework)</TargetFrameworks>
+    <TargetFramework>$(AspNetCoreTargetFramework)</TargetFramework>
     <RootNamespace>K9Nano.Modular</RootNamespace>
   </PropertyGroup>
 
